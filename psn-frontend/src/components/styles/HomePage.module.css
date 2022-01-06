@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.colContainerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colContainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBackground {
+    background-image: url("../assets/home-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.colWithButtons {
+    width: 50%;
+    color: #34bf5c;
+}
+
+.linkTextFormat {
+    text-decoration: none;
+    color: white;
+}
+
+.linkTextFormat:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btnHomePage {
+    width: 100%;
+}
+
+@media only screen and (max-width: 575px) { 
+    .colContainerLeft {
+        display: none;
+    }
+
+    .colWithButtons {
+        width: 95%;
+        text-align: center;
+    }
+}

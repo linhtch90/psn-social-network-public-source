@@ -1,0 +1,31 @@
+.loveButton {
+
+}
+
+.commentButton {
+
+}
+
+.shareButton {
+
+}
+
+.sendCommentButton {
+
+}
+
+.loveButton:hover {
+    cursor: pointer;
+}
+
+.commentButton:hover {
+    cursor: pointer;
+}
+
+.shareButton:hover {
+    cursor: pointer;
+}
+
+.sendCommentButton:hover {
+    cursor: pointer;
+}
