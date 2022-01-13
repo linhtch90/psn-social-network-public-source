@@ -24,5 +24,5 @@
   - Backend: Java Spring Boot
   - Database: MongoDB
 
-
-
+**Live Demo:**
+https://psn-social-network.herokuapp.com/#/
